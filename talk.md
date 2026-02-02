@@ -27,6 +27,7 @@
   * CDN
   * API für
 * REST + HATEOAS
+* Out of order [streaming HTML](https://go-streaming-html-ooo.fly.dev/)
 * Htmx
   * Why should only `<a>` & `<form>` be able to make HTTP requests?
   * Why should only click & submit events trigger them?
