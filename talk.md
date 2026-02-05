@@ -33,3 +33,5 @@
   * Why should only click & submit events trigger them?
   * Why should only GET & POST methods be available?
   * Why should you only be able to replace the entire screen?
+* Alpine.js
+* Inertia.js
