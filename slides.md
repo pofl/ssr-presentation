@@ -71,16 +71,35 @@ duration: 35min
 
 # SPA hangover
 
-- [Page Weight continuously rising](https://almanac.httparchive.org/en/2025/page-weight#page-weight-over-time)
-  ![Page Weight continuously rising](https://almanac.httparchive.org/static/images/2025/page-weight/median-home-page-weight-over-time.png)
-- [What is causing Page Weight](https://almanac.httparchive.org/en/2025/page-weight#median-page-by-the-bytes)
-  ![What is causing Page Weight](https://almanac.httparchive.org/static/images/2025/page-weight/median-mobile-page-weight-by-content-type.png)
-- [JS bytes !== img bytes](https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking)
-  ![JS bytes !== img bytes](https://web.dev/static/articles/reduce-javascript-payloads-with-tree-shaking/image/a-diagram-comparing-proc-5b49bd91e7285_856.png)
-- [The performance gap between flagship and budget phones keeps increasing](https://infrequently.org/2024/01/performance-inequality-gap-2024/)
-  ![text](https://infrequently.org/.netlify/images?url=/2024/01/performance-inequality-gap-2024/single_core_scores.png&fm=avif&w=900)
-- Performance SPA vs SSR
-  ![Performance SPA vs SSR](./a.excalidraw.png)
+---
+
+## [Page Weight continuously rising](https://almanac.httparchive.org/en/2025/page-weight#page-weight-over-time)
+
+![Page Weight continuously rising](https://almanac.httparchive.org/static/images/2025/page-weight/median-home-page-weight-over-time.png)
+
+---
+
+## [What is causing Page Weight](https://almanac.httparchive.org/en/2025/page-weight#median-page-by-the-bytes)
+
+![What is causing Page Weight](https://almanac.httparchive.org/static/images/2025/page-weight/median-mobile-page-weight-by-content-type.png)
+
+---
+
+## [JS bytes !== img bytes](https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking)
+
+![JS bytes !== img bytes](https://web.dev/static/articles/reduce-javascript-payloads-with-tree-shaking/image/a-diagram-comparing-proc-5b49bd91e7285_856.png)
+
+---
+
+## [The performance gap between flagship and budget phones keeps increasing](https://infrequently.org/2024/01/performance-inequality-gap-2024/)
+
+![text](https://infrequently.org/.netlify/images?url=/2024/01/performance-inequality-gap-2024/single_core_scores.png&fm=avif&w=900)
+
+---
+
+## Performance SPA vs SSR
+
+![Performance SPA vs SSR](./a.excalidraw.png)
 
 ---
 
