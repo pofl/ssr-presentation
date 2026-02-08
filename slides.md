@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: SPAs vs. SSR in 2026
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -23,6 +23,90 @@ mdc: true
 # duration of the presentation
 duration: 35min
 ---
+
+---
+
+# As a backend engineer only writing json APIs I had to relearn what classical web development is
+
+- Colleague: this feature is just a form. Me:??
+
+---
+
+# History recap
+
+- HTML / Web 1.0
+  - knows only POST and GET
+  - All logic on the server
+  - Browser is just a client
+  - PHP is perfect fit here
+- Ajax / jQuery era: Javascript führt requests aus. XML + JSON skyrocket
+- SPA era: Angular + React
+  - Coincided with rise of Apple + Android
+  - server serves JSON-data-API
+  - Mobile clients and Web client in parallel
+- Next.js era: SPA hangover: websites are MBs of download. React alone doesn't cut it. You need react-router, react-query, react-forms. You need tooling for styles, usually Tailwind. Waterfalls are slow.
+
+---
+
+# GET & DELETE requests will include values via query parameters, other request types will submit them as a form encoded body.
+
+---
+
+# React SPAs were the default for a long time but recently I felt a new wave of SSR momentum
+
+---
+
+# SSR
+
+- Post redirect get
+
+---
+
+# SPA + JSON API
+
+- CDN for App
+- API for data
+
+---
+
+# SPA hangover
+
+- [Page Weight continuously rising](https://almanac.httparchive.org/en/2025/page-weight#page-weight-over-time)
+  ![Page Weight continuously rising](https://almanac.httparchive.org/static/images/2025/page-weight/median-home-page-weight-over-time.png)
+- [What is causing Page Weight](https://almanac.httparchive.org/en/2025/page-weight#median-page-by-the-bytes)
+  ![What is causing Page Weight](https://almanac.httparchive.org/static/images/2025/page-weight/median-mobile-page-weight-by-content-type.png)
+- [JS bytes !== img bytes](https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking)
+  ![JS bytes !== img bytes](https://web.dev/static/articles/reduce-javascript-payloads-with-tree-shaking/image/a-diagram-comparing-proc-5b49bd91e7285_856.png)
+- [The performance gap between flagship and budget phones keeps increasing](https://infrequently.org/2024/01/performance-inequality-gap-2024/)
+  ![text](https://infrequently.org/.netlify/images?url=/2024/01/performance-inequality-gap-2024/single_core_scores.png&fm=avif&w=900)
+- Performance SPA vs SSR
+  ![Performance SPA vs SSR](./a.excalidraw.png)
+
+---
+
+# REST + HATEOAS
+
+---
+
+# Out of order [streaming HTML](https://go-streaming-html-ooo.fly.dev/)
+
+---
+
+# Htmx
+
+- Why should only `<a>` & `<form>` be able to make HTTP requests?
+- Why should only click & submit events trigger them?
+- Why should only GET & POST methods be available?
+- Why should you only be able to replace the entire screen?
+
+---
+
+# Alpine.js
+
+---
+
+# Inertia.js
+
 
 # Welcome to Slidev
 
