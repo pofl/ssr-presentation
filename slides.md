@@ -24,8 +24,9 @@ mdc: true
 duration: 35min
 ---
 
----
+<!-- markdownlint-disable -->
 
+---
 # As a backend engineer only writing json APIs I had to relearn what classical web development is
 
 - Colleague: this feature is just a form. Me:??
@@ -37,7 +38,8 @@ duration: 35min
 - HTML / Web 1.0
   - knows only POST and GET
   - All logic on the server
-  - Browser is just a client
+  - Browser is
+--- just a client
   - PHP is perfect fit here
 - Ajax / jQuery era: Javascript führt requests aus. XML + JSON skyrocket
 - SPA era: Angular + React
@@ -126,6 +128,7 @@ duration: 35min
 
 # Inertia.js
 
+---
 
 # Welcome to Slidev
 
